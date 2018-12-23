@@ -14,6 +14,8 @@
     </style>
   </head>
   <body>
+    <input id = "username" ></input>
+    <button id="cambiarNombre">OK</button>
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
@@ -22,13 +24,19 @@
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
       var socket = io();
+      var username = $("#username");
+      var cambiarNombre = $("#cambiarNombre");
+      cambiarNombre.click(function () {
+        socket.emit('cambiar_nombre',{usuario : username.val()});
+        return false;
+      });
       $('form').submit(function(){
-        socket.emit('chat message', $('#m').val());
+        socket.emit('mensaje', {usuario: username.val() ,msj: $('#m').val()});
         $('#m').val('');
         return false;
       });
-      socket.on('chat message', function(msg){
-        $('#messages').append($('<li>').text("message:" + msg));
+      socket.on('mensaje', function(datos){
+        $('#messages').append($('<li>').text(datos.usuario + ": " + datos.msj));
       });
     </script>
   </body>

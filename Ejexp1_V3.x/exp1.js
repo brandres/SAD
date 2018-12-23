@@ -16,9 +16,9 @@ app = express();
 app.use(express.logger());
 app.use(express.compress());
 app.use(express.static(__dirname));
-app.use(express.basicAuth(function(username, password) {
-return username == 'shire' & password == 'baggins';
-}));
+//app.use(express.basicAuth(function(username, password) {
+//return username == 'shire' & password == 'baggins';
+//}));
 
 // a simple route
 app.get('/blah', function(req, res) {
