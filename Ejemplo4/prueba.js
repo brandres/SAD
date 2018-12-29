@@ -1,0 +1,1 @@
+var zmq = requireenerated 5 byte identity");

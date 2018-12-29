@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08730f85-83f9-4de2-82a9-77a2c71c4cc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sem04/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sem04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejemplo4/prueba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem05/broker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem05/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem05/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem05/subscriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem05/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sem04/sem04.js" beforeDir="false" afterPath="$PROJECT_DIR$/sem04/sem04.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,55 +23,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sem04/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ejexp1_V4.x/exp1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="345">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
@@ -74,17 +34,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sem04/sem04.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sem04/package.json">
+        <entry file="file://$PROJECT_DIR$/Ejemplo4/Ejem4_client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ejemplo4/Ejem4_server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sem05/broker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sem05/worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sem05/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -94,10 +90,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/sem05/node_modules</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,8 +114,17 @@
         <option value="$PROJECT_DIR$/Ejexp1_V4.x/exp1.js" />
         <option value="$PROJECT_DIR$/chat/index.js" />
         <option value="$PROJECT_DIR$/sem04/package.json" />
-        <option value="$PROJECT_DIR$/sem04/sem04.js" />
         <option value="$PROJECT_DIR$/sem04/index.html" />
+        <option value="$PROJECT_DIR$/Ejemplo4/package.json" />
+        <option value="$PROJECT_DIR$/sem04/sem04.js" />
+        <option value="$PROJECT_DIR$/Ejemplo4/Ejem4_client.js" />
+        <option value="$PROJECT_DIR$/Ejemplo4/Ejem4_server.js" />
+        <option value="$PROJECT_DIR$/sem05/package.json" />
+        <option value="$PROJECT_DIR$/sem05/subscriptor.js" />
+        <option value="$PROJECT_DIR$/sem05/client.js" />
+        <option value="$PROJECT_DIR$/sem05/broker.js" />
+        <option value="$PROJECT_DIR$/Ejemplo4/prueba.js" />
+        <option value="$PROJECT_DIR$/sem05/worker.js" />
       </list>
     </option>
   </component>
@@ -133,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +158,11 @@
               <item name="SAD" type="b2602c69:ProjectViewProjectNode" />
               <item name="SAD" type="462c0819:PsiDirectoryNode" />
               <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAD" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejemplo4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SAD" type="b2602c69:ProjectViewProjectNode" />
@@ -160,21 +179,26 @@
               <item name="SAD" type="462c0819:PsiDirectoryNode" />
               <item name="sem04" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAD" type="462c0819:PsiDirectoryNode" />
+              <item name="sem05" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.5.0" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -193,30 +217,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.sem04.js">
-    <configuration name="exp1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ejexp1_V4.x/exp1.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.worker.js">
+    <configuration name="Ejem4_client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ejemplo4/Ejem4_client.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="exp1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Ejexp1_V3.x/exp1.js" working-dir="$PROJECT_DIR$">
+    <configuration name="broker.js" type="NodeJSConfigurationType" singleton="false" temporary="true" nameIsGenerated="true" path-to-js-file="sem05/broker.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chat/index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="client.js" type="NodeJSConfigurationType" singleton="false" temporary="true" nameIsGenerated="true" path-to-js-file="sem05/client.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="sem04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sem04/sem04.js" working-dir="$PROJECT_DIR$">
+    <configuration name="subscriptor.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sem05/subscriptor.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="worker.js" type="NodeJSConfigurationType" singleton="false" temporary="true" nameIsGenerated="true" path-to-js-file="sem05/worker.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.broker.js" />
+      <item itemvalue="Node.js.client.js" />
+      <item itemvalue="Node.js.Ejem4_client.js" />
+      <item itemvalue="Node.js.worker.js" />
+      <item itemvalue="Node.js.subscriptor.js" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.sem04.js" />
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.exp1.js" />
-        <item itemvalue="Node.js.exp1.js (1)" />
+        <item itemvalue="Node.js.worker.js" />
+        <item itemvalue="Node.js.client.js" />
+        <item itemvalue="Node.js.broker.js" />
+        <item itemvalue="Node.js.subscriptor.js" />
+        <item itemvalue="Node.js.Ejem4_client.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -232,12 +267,20 @@
       <workItem from="1545576992813" duration="160000" />
       <workItem from="1545577188924" duration="2320000" />
       <workItem from="1545581356961" duration="7220000" />
-      <workItem from="1545590509011" duration="6544000" />
+      <workItem from="1545590509011" duration="9159000" />
+      <workItem from="1545605493437" duration="1333000" />
+      <workItem from="1545610779793" duration="664000" />
+      <workItem from="1545612071132" duration="15000" />
+      <workItem from="1545612123218" duration="933000" />
+      <workItem from="1545613598980" duration="9018000" />
+      <workItem from="1545772389446" duration="8494000" />
+      <workItem from="1545844954407" duration="7491000" />
+      <workItem from="1545925847549" duration="12980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20110000" />
+    <option name="totallyTimeSpent" value="63653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,19 +300,38 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32739726" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29041097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32739726" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3260274" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29041097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3260274" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -282,9 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejexp1_V3.x/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ejexp1_V3.x/exp1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -295,16 +354,94 @@
     <entry file="file://$PROJECT_DIR$/sem04/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejexp1_V4.x/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Ejemplo4/Ejem4_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo4/package.json" />
+    <entry file="file://$PROJECT_DIR$/Ejexp1_V3.x/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo4/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/SeMiProfe copia/web-client/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem05/node_modules/zeromq/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="518" column="12" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejexp1_V4.x/exp1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem04/sem04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo4/Ejem4_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo4/Ejem4_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem05/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -315,41 +452,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejexp1_V4.x/package.json">
+    <entry file="file://$PROJECT_DIR$/Ejemplo4/prueba.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem05/broker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sem05/subscriptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/index.html">
+    <entry file="file://$PROJECT_DIR$/sem05/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/index.js">
+    <entry file="file://$PROJECT_DIR$/sem05/worker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sem04/sem04.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejexp1_V4.x/exp1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sem04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>

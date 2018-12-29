@@ -1,7 +1,7 @@
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var usuarios = []
+var usuarios = [];
 
 app.get('/',function(req,res){
     res.sendFile(__dirname + '/index.html');
@@ -19,7 +19,7 @@ io.on('connection', function(socket){
             io.emit('mensaje', {usuario : socket.username, msj : datos.msj});
         }
 
-    });
+    });npm
     socket.on('cambiar_nombre',function(datos){
         console.log('se ha cambiado el nombre a ${datos.usuario}');
         socket.username = datos.usuario;

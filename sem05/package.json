@@ -1,0 +1,8 @@
+{
+  "name": "sem05",
+  "version": "1.0.0",
+  "dependencies": {
+    "wait.for": "^0.6.6",
+    "zeromq": "latest"
+  }
+}
