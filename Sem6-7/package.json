@@ -1,0 +1,7 @@
+{
+  "name": "Sem6-7",
+  "version": "1.0.0",
+  "dependencies": {
+    "q": "^1.5.1"
+  }
+}

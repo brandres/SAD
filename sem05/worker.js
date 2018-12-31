@@ -26,7 +26,5 @@ var conectados = [];
             console.log('se envia');
         }
         setTimeout(helo,200);
-
-
     });
 
