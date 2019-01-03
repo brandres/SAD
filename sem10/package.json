@@ -1,0 +1,7 @@
+{
+  "name": "sem10",
+  "version": "1.0.0",
+  "dependencies": {
+    "multichain-node": "^2.2.0-version1.0.4"
+  }
+}
