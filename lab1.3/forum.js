@@ -88,7 +88,7 @@ io.on('connection', function(sock) {
 
   	// Client ask for current user list
   	sock.on ('get user list', function () {
-  		console.log('getUserList');
+  		console.log('getUserList');// no se porque esto arregla un problema...
   		dm.getUserList (function (list) {
 	  		console.log("Event: get user list");  		
   			sock.emit ('user list', list);
