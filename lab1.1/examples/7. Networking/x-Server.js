@@ -36,25 +36,18 @@ console.log('Server listening on ' + HOST + ':' + PORT);
 function handleRequest(sock, requestType) {
     switch (requestType) {
         case 'messages':
-            sock.write('**** messages ****\n');
-            messages.forEach(function (value, i) {
-                sock.write(value);
-            });
+            sock.write(JSON.stringify(['**** messages ****']));
+            sock.write(JSON.stringify(subjects));
             sock.end();
             break;
         case 'subjects':
-            sock.write('**** SUBJECTS ****\n');
-            subjects.forEach(function (value, i) {
-                sock.write(value + '\n');
-            });
+            sock.write(JSON.stringify(['**** subjects ****']));
+            sock.write(JSON.stringify(subjects));
             sock.end();
             break;
         case 'users':
-            sock.write('**** USERS ****\n');
-            users.forEach(function (value, i) {
-                sock.write(value + '\n');
-
-            });
+            sock.write(JSON.stringify(['**** users ****']));
+            sock.write(JSON.stringify(subjects));
             sock.end();
             break;
         default:
