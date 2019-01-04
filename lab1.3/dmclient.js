@@ -8,32 +8,36 @@ dm.Start(HOST, PORT, function () {
 
 	switch (peti) {
 		case 'get subject list':
-			reply.obj = dm.getSubjectList();
+			dm.getSubjectList(mostrarRespuesta);
 			break;
 		case 'get public message list':
-			reply.obj = dm.getPublicMessageList (process.argv[4]);
+			dm.getPublicMessageList (process.argv[4],mostrarRespuesta);
 			break;
 		case 'get private message list':
-			reply.obj = dm.getPrivateMessageList (process.argv[4],process.argv[5]);
+			dm.getPrivateMessageList (process.argv[4],process.argv[5],mostrarRespuesta);
 			break;
 		case 'add private message':
-			reply.obj = dm.addPrivateMessage(process.argv[4]);
+			dm.addPrivateMessage(process.argv[4],mostrarRespuesta);
 			break;
 		case 'add public message':
-			reply.obj = dm.addPublicMessage(process.argv[4]);
+			dm.addPublicMessage(process.argv[4],mostrarRespuesta);
 			break;
 		case 'new user':
-			reply.obj = dm.addUser(process.argv[4],process.argv[5]);
+			dm.addUser(process.argv[4],process.argv[5],mostrarRespuesta);
 			break;
 		case 'new subject':
-			reply.obj = dm.addSubject(process.argv[4]);
+			dm.addSubject(process.argv[4],mostrarRespuesta);
 			break;
 		case 'get user list':
-			reply.obj = dm.getUserList();
+			dm.getUserList(mostrarRespuesta);
 			break;
 		case 'login':
-			reply.obj = dm.login(process.argv[4],process.argv[5]);
+			dm.login(process.argv[4],process.argv[5],mostrarRespuesta);
 			break;
 		default: console.log('No encontramos la peticion: ' +peti);break;
 	}
 });
+
+function mostrarRespuesta(res){
+	console.log(res);
+}

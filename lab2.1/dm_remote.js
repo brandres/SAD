@@ -1,10 +1,8 @@
-
-var net = require('net');
-
-var client = new net.Socket();
+var zmq = require('zeromq');
+var req = zmq.socket('req');
 
 exports.Start = function (host, port, cb) {
-	client.connect(port, host, function() {
+	req.connect('tcp://' + host + ':' + port, function() {
 		console.log('Connected to: ' + host + ':' + port);
 		if (cb != null) cb();
 	});
@@ -19,7 +17,7 @@ var invoCounter = 0; // current invocation number is key to access "callbacks".
 // extract the reply, find the callback, and call it.
 // Its useful to study "exports" functions before studying this one.
 //
-client.on ('data', function (data) {
+req.on ('message', function (data) {
 	console.log ('data comes in: ' + data);
 	var reply = JSON.parse (data.toString());
 	switch (reply.what) {
@@ -79,11 +77,6 @@ client.on ('data', function (data) {
 	}
 });
 
-// Add a 'close' event handler for the client socket
-client.on('close', function() {
-	console.log('Connection closed');
-});
-
 
 //
 // on each invocation we store the command to execute (what) and the invocation Id (invoId)
@@ -104,18 +97,18 @@ function Invo (str, cb) {
 exports.getPublicMessageList = function  (sbj, cb) {
 	var invo = new Invo ('get public message list', cb);
 	invo.sbj = sbj;
-	client.write (JSON.stringify(invo));
+	req.send(JSON.stringify(invo));
 }
 
 exports.getPrivateMessageList = function (u1, u2, cb) {
 	var invo = new Invo ('get private message list', cb);
 	invo.u1 = u1;
 	invo.u2 = u2;
-	client.write (JSON.stringify(invo));
+	req.send(JSON.stringify(invo));
 }
 
 exports.getSubjectList = function (cb) {
-	client.write (JSON.stringify(new Invo ('get subject list', cb)));
+	req.send(JSON.stringify(new Invo ('get subject list', cb)));
 }
 
 //Funcionalidades que faltan
@@ -124,18 +117,18 @@ exports.addUser = function (u,p, cb) {
 	var invo = new Invo ('new user', cb);
 	invo.u = u;
 	invo.p = p;
-	client.write (JSON.stringify(invo));
+	req.send(JSON.stringify(invo));
 }
 
 // Adds a new subject to subject list. Returns -1 if already exists, id on success
 exports.addSubject = function (s, cb) {
 	var invo = new Invo ('new subject', cb);
 	invo.s = s;
-	client.write (JSON.stringify(invo));
+	req.send (JSON.stringify(invo));
 }
 
 exports.getUserList = function (cb) {
-	client.write (JSON.stringify(new Invo ('get user list', cb)));
+	req.send (JSON.stringify(new Invo ('get user list', cb)));
 }
 
 // Tests if credentials are valid, returns true on success
@@ -143,19 +136,19 @@ exports.login = function (u, p, cb) {
 	var invo = new Invo ('login', cb);
 	invo.u = u;
 	invo.p = p;
-	client.write (JSON.stringify(invo));
+	req.send (JSON.stringify(invo));
 }
 
 exports.addPrivateMessage = function (msg, cb){
 	var invo = new Invo ('add private message', cb);
 	invo.msg = msg;
-	client.write (JSON.stringify(invo));
+	req.send(JSON.stringify(invo));
 }
 
 function getSubject (sbj, cb) {
 	var invo = new Invo ('get subject', cb);
 	invo.sbj = sbj;
-	client.write (JSON.stringify(invo));
+	req.send (JSON.stringify(invo));
 }
 
 // adds a public message to storage
@@ -163,8 +156,7 @@ exports.addPublicMessage = function (msg, cb)
 {
 	var invo = new Invo ('add public message', cb);
 	invo.msg = msg;
-	client.write (JSON.stringify(invo));
+	req.send (JSON.stringify(invo));
 }
-
 
 
