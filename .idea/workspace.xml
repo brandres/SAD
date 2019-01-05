@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08730f85-83f9-4de2-82a9-77a2c71c4cc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pruebaconnect/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pruebaconnect/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pruebaconnect/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.2/dmserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.2/dmserver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.2/forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.2/forum.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,10 +20,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab1.3/dmserver.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2.2/dmserver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7" />
+            <state relative-caret-position="295">
+              <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab2.2/forum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pruebaconnect/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pruebaconnect/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -27,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -102,6 +136,11 @@
         <option value="$PROJECT_DIR$/lab2.1/dm_remote.js" />
         <option value="$PROJECT_DIR$/lab2.1/forum.js" />
         <option value="$PROJECT_DIR$/lab2.1/dmserver.js" />
+        <option value="$PROJECT_DIR$/pruebaconnect/package.json" />
+        <option value="$PROJECT_DIR$/pruebaconnect/server.js" />
+        <option value="$PROJECT_DIR$/pruebaconnect/client.js" />
+        <option value="$PROJECT_DIR$/lab2.2/dmserver.js" />
+        <option value="$PROJECT_DIR$/lab2.2/forum.js" />
       </list>
     </option>
   </component>
@@ -172,8 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.dmserver.js">
-    <configuration name="dmclient.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab1.3/dmclient.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.client.js">
+    <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/pruebaconnect/client.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="dmserver.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab1.3/dmserver.js" working-dir="$PROJECT_DIR$">
@@ -185,23 +224,23 @@
     <configuration name="forum.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lab1.3/forum.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="sem6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sem6-7/sem6.js" working-dir="$PROJECT_DIR$">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/pruebaconnect/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.sem6.js" />
       <item itemvalue="Node.js.forum.js (1)" />
       <item itemvalue="Node.js.dmserver.js (1)" />
-      <item itemvalue="Node.js.dmclient.js" />
       <item itemvalue="Node.js.dmserver.js" />
+      <item itemvalue="Node.js.client.js" />
+      <item itemvalue="Node.js.server.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.client.js" />
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.dmserver.js" />
         <item itemvalue="Node.js.dmserver.js (1)" />
         <item itemvalue="Node.js.forum.js (1)" />
-        <item itemvalue="Node.js.dmclient.js" />
-        <item itemvalue="Node.js.sem6.js" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158928000" />
+    <option name="totallyTimeSpent" value="165283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,8 +293,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +307,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3260274" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3260274" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,12 +337,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/pru2.js" />
-    <entry file="file://$USER_HOME$/Downloads/pru1.js" />
-    <entry file="file://$USER_HOME$/Downloads/prom15.js" />
-    <entry file="file://$USER_HOME$/Downloads/prom9.js" />
-    <entry file="file://$USER_HOME$/Downloads/prom5.js" />
-    <entry file="file://$USER_HOME$/Downloads/ej6_err.js" />
     <entry file="file://$PROJECT_DIR$/Sem6-7/node_modules/mongodb/lib/operations/mongo_client_ops.js" />
     <entry file="file://$PROJECT_DIR$/Sem6-7/file">
       <provider selected="true" editor-type-id="text-editor" />
@@ -579,8 +613,48 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1.3/dmserver.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebaconnect/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2.2/node_modules/zeromq/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="306" column="11" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebaconnect/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebaconnect/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2.2/dmserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2.2/forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        </state>
       </provider>
     </entry>
   </component>

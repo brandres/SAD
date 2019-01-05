@@ -3,8 +3,10 @@ var rep = zmq.socket('rep');
 var pub = zmq.socket('pub');
 var PORT = process.argv[2];
 var PUBPORT = process.argv[3];
+var servers = process.argv[4] !== undefined ? process.argv[4].split(',') : [];
 
 var dm = require('./dm.js');
+connect();
 // Add a 'data' event handler to this instance of socket
 rep.on('message', function (data) {
     var str = data.toString();
@@ -23,11 +25,13 @@ rep.on('message', function (data) {
             break;
         case 'add private message':
             dm.addPrivateMessage(invo.msg);
-            pub.send(JSON.stringify(invo.msg));
+            pub.send(['checkpoint',JSON.stringify(invo.msg)]);
+            pub.send(['webserver',JSON.stringify(invo.msg)]);
             break;
         case 'add public message':
             dm.addPublicMessage(invo.msg);
-            pub.send(JSON.stringify(invo.msg));
+            pub.send(['checkpoint',JSON.stringify(invo.msg)]);
+            pub.send(['webserver',JSON.stringify(invo.msg)]);
             break;
         case 'new user':
             reply.obj = dm.addUser(invo.u, invo.p);
@@ -53,4 +57,17 @@ rep.bind('tcp://*:' + PORT, function () {
 pub.bind('tcp://*:' + PUBPORT,function () {
     console.log('Server pub listening on ' + '*' + ':' + PUBPORT);
 });
+function connect(){
 
+    for(var e of servers){
+        var sub = zmq.socket('sub');
+        sub.subscribe('checkpoint');
+        sub.connect(e,function(){
+            console.log('conectado a ' + e)
+        });
+        sub.on('message',function (identificador,datos) {
+            var parsedData = JSON.parse(datos);
+            pub.send(['webserver',JSON.stringify(parsedData));
+        })
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pruebaconnect",
+  "version": "1.0.0",
+  "dependencies": {
+    "zeromq": "^5.1.0"
+  }
+}

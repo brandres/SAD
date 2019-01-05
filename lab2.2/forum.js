@@ -15,12 +15,11 @@ app.set('views', viewsdir)
 sub.connect(SUBURL,function () {
 	console.log('Cliente sub conectado a: ' + SUBURL);
 })
-sub.subscribe('');
-sub.on('message',function (msg) {
-	console.log('Ha llegado un mensaje del subscriptor' + msg);
-	var data = JSON.parse(msg);
-	console.log(data);
-	io.emit('message', JSON.stringify(data));
+sub.subscribe('webserver');
+sub.on('message',function (identificador,datos) {
+	console.log('Ha llegado un mensaje del subscriptor: ' + datos);
+	var parsedData = JSON.parse(datos);
+	io.emit('message', JSON.stringify(parsedData));
 })
 // called on connection
 function get_page (req, res) {
@@ -63,11 +62,11 @@ io.on('connection', function(sock) {
 		msg.ts = new Date(); // timestamp
 		if (msg.isPrivate) {
 			dm.addPrivateMessage (msg, function () {
-				console.log('Se ha emitido el mensaje publico');
+				console.log('Se ha emitido el mensaje privado');
 			});
 		} else {
 			dm.addPublicMessage (msg, function () {
-				console.log('Se ha emitido un mensaje privado');
+				console.log('Se ha emitido un mensaje publico');
 			});
 		}
 	});
