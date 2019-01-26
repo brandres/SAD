@@ -57,17 +57,18 @@ rep.bind('tcp://*:' + PORT, function () {
 pub.bind('tcp://*:' + PUBPORT,function () {
     console.log('Server pub listening on ' + '*' + ':' + PUBPORT);
 });
-function connect(){
 
+function connect(){
     for(var e of servers){
+        console.log('Conectado a ' + e);
         var sub = zmq.socket('sub');
         sub.subscribe('checkpoint');
         sub.connect(e,function(){
-            console.log('conectado a ' + e)
+            console.log('conectado a ' + e);
         });
         sub.on('message',function (identificador,datos) {
             var parsedData = JSON.parse(datos);
-            pub.send(['webserver',JSON.stringify(parsedData));
+            pub.send(['webserver',JSON.stringify(parsedData)]);
         })
     }
 }

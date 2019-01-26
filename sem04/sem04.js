@@ -13,13 +13,12 @@ io.on('connection', function(socket){
         io.emit('desconectado',{usuario : socket.username});
     });
     socket.on('mensaje', function(datos){
-
         if(datos.usuario !== socket.username){
             console.log('message: ' + socket.username);
             io.emit('mensaje', {usuario : socket.username, msj : datos.msj});
         }
 
-    });npm
+    });
     socket.on('cambiar_nombre',function(datos){
         console.log('se ha cambiado el nombre a ${datos.usuario}');
         socket.username = datos.usuario;
