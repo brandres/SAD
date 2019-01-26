@@ -148,4 +148,4 @@ io.on('connection', function(sock) {
 });
 
 // Listen for connections !!
-http.listen (LISTERPORT, on_startup);
+http.listen (LISTENPORT, on_startup);

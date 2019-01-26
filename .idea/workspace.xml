@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08730f85-83f9-4de2-82a9-77a2c71c4cc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.2/dmserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.2/dmserver.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2.2/forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.2/forum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.2/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.2/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem04/sem04.js" beforeDir="false" afterPath="$PROJECT_DIR$/sem04/sem04.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem10/prueba.js" beforeDir="false" afterPath="$PROJECT_DIR$/sem10/prueba.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab2.2/forum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="257">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -33,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/lab2.2/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="356" column="20" selection-start-line="356" selection-start-column="20" selection-end-line="356" selection-end-column="20" />
+              <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -345,12 +340,12 @@
       <workItem from="1547383819808" duration="687000" />
       <workItem from="1547579463116" duration="5674000" />
       <workItem from="1548449814758" duration="2227000" />
-      <workItem from="1548517601903" duration="2613000" />
+      <workItem from="1548517601903" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179379000" />
+    <option name="totallyTimeSpent" value="179488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,7 +661,7 @@
     <entry file="file://$PROJECT_DIR$/lab2.2/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="356" column="20" selection-start-line="356" selection-start-column="20" selection-end-line="356" selection-end-column="20" />
+          <caret line="356" column="19" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -699,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2.2/forum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="257">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
